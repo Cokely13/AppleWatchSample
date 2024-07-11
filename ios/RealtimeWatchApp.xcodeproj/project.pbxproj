@@ -11,6 +11,14 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		3C583CE02C4059FC000FA7B2 /* SampleWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C583CDF2C4059FC000FA7B2 /* SampleWatchApp.swift */; };
+		3C583CE22C4059FC000FA7B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C583CE12C4059FC000FA7B2 /* ContentView.swift */; };
+		3C583CE42C4059FD000FA7B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C583CE32C4059FD000FA7B2 /* Assets.xcassets */; };
+		3C583CE72C4059FD000FA7B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C583CE62C4059FD000FA7B2 /* Preview Assets.xcassets */; };
+		3C583CEA2C4059FD000FA7B2 /* SampleWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3C583CDD2C4059FC000FA7B2 /* SampleWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3C583CEF2C405CE1000FA7B2 /* AccelerometerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C583CEE2C405CE1000FA7B2 /* AccelerometerViewModel.swift */; };
+		3C583CF02C405F8B000FA7B2 /* AccelerometerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C583CEE2C405CE1000FA7B2 /* AccelerometerViewModel.swift */; };
+		3C583CF12C405F9B000FA7B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C583CE12C4059FC000FA7B2 /* ContentView.swift */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		7A73442AC38740668F4608C3 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF62B86EBEF8405AAB6C6525 /* noop-file.swift */; };
 		86F2B511F22F48AA8235C148 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912046C9ADA44EB8FCB1C6F /* ViewModel.swift */; };
@@ -24,6 +32,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3C583CE82C4059FD000FA7B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C583CDC2C4059FC000FA7B2;
+			remoteInfo = "SampleWatch Watch App";
+		};
 		9FEDE6160B994FC0B112EA3D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
@@ -41,6 +56,7 @@
 			dstSubfolderSpec = 16;
 			files = (
 				C6FD7FF40E674A43959CFE08 /* SampleWatch Watch App.app in Embed Watch Content */,
+				3C583CEA2C4059FD000FA7B2 /* SampleWatch Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,6 +73,12 @@
 		23A0E15E450545679C3FDC73 /* RealtimeWatchApp-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "RealtimeWatchApp-Bridging-Header.h"; path = "RealtimeWatchApp/RealtimeWatchApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		2912046C9ADA44EB8FCB1C6F /* ViewModel.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		2ED728BF553048DA914C0A7F /* SampleWatchApp.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; path = SampleWatchApp.swift; sourceTree = "<group>"; };
+		3C583CDD2C4059FC000FA7B2 /* SampleWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SampleWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C583CDF2C4059FC000FA7B2 /* SampleWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleWatchApp.swift; sourceTree = "<group>"; };
+		3C583CE12C4059FC000FA7B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C583CE32C4059FD000FA7B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C583CE62C4059FD000FA7B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C583CEE2C405CE1000FA7B2 /* AccelerometerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerViewModel.swift; sourceTree = "<group>"; };
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-RealtimeWatchApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RealtimeWatchApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A05D152D7D540C18316235E /* SampleWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; fileEncoding = 9; includeInIndex = 0; path = "SampleWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2E3173556A471DD304B334 /* Pods-RealtimeWatchApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealtimeWatchApp.debug.xcconfig"; path = "Target Support Files/Pods-RealtimeWatchApp/Pods-RealtimeWatchApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,6 +99,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				96905EF65AED1B983A6B3ABC /* libPods-RealtimeWatchApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C583CDA2C4059FC000FA7B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +157,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3C583CDE2C4059FC000FA7B2 /* SampleWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				3C583CDF2C4059FC000FA7B2 /* SampleWatchApp.swift */,
+				3C583CE12C4059FC000FA7B2 /* ContentView.swift */,
+				3C583CE32C4059FD000FA7B2 /* Assets.xcassets */,
+				3C583CE52C4059FD000FA7B2 /* Preview Content */,
+				3C583CEE2C405CE1000FA7B2 /* AccelerometerViewModel.swift */,
+			);
+			path = "SampleWatch Watch App";
+			sourceTree = "<group>";
+		};
+		3C583CE52C4059FD000FA7B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C583CE62C4059FD000FA7B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +189,7 @@
 			children = (
 				13B07FAE1A68108700A75B9A /* RealtimeWatchApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				3C583CDE2C4059FC000FA7B2 /* SampleWatch Watch App */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
@@ -156,6 +206,7 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* RealtimeWatchApp.app */,
 				5A05D152D7D540C18316235E /* SampleWatch Watch App.app */,
+				3C583CDD2C4059FC000FA7B2 /* SampleWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -215,6 +266,7 @@
 			);
 			dependencies = (
 				71507692D3104B15AEB78106 /* PBXTargetDependency */,
+				3C583CE92C4059FD000FA7B2 /* PBXTargetDependency */,
 			);
 			name = RealtimeWatchApp;
 			productName = RealtimeWatchApp;
@@ -238,12 +290,30 @@
 			productReference = 5A05D152D7D540C18316235E /* SampleWatch Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3C583CDC2C4059FC000FA7B2 /* SampleWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C583CED2C4059FD000FA7B2 /* Build configuration list for PBXNativeTarget "SampleWatch Watch App" */;
+			buildPhases = (
+				3C583CD92C4059FC000FA7B2 /* Sources */,
+				3C583CDA2C4059FC000FA7B2 /* Frameworks */,
+				3C583CDB2C4059FC000FA7B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SampleWatch Watch App";
+			productName = "SampleWatch Watch App";
+			productReference = 3C583CDD2C4059FC000FA7B2 /* SampleWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1130;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
@@ -251,6 +321,9 @@
 					};
 					365807311B134048B9CFA67F = {
 						LastSwiftMigration = 1250;
+					};
+					3C583CDC2C4059FC000FA7B2 = {
+						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
@@ -269,6 +342,7 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* RealtimeWatchApp */,
 				365807311B134048B9CFA67F /* SampleWatch Watch App */,
+				3C583CDC2C4059FC000FA7B2 /* SampleWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -281,6 +355,15 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C583CDB2C4059FC000FA7B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C583CE72C4059FD000FA7B2 /* Preview Assets.xcassets in Resources */,
+				3C583CE42C4059FD000FA7B2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,11 +424,13 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RealtimeWatchApp/Pods-RealtimeWatchApp-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ExpoFileSystem/ExpoFileSystem_privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/RCTI18nStrings.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoFileSystem_privacy.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCTI18nStrings.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,10 +482,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C583CF02C405F8B000FA7B2 /* AccelerometerViewModel.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				3C583CF12C405F9B000FA7B2 /* ContentView.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
 				7A73442AC38740668F4608C3 /* noop-file.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C583CD92C4059FC000FA7B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C583CE22C4059FC000FA7B2 /* ContentView.swift in Sources */,
+				3C583CE02C4059FC000FA7B2 /* SampleWatchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +506,7 @@
 			files = (
 				DE61BE1685554E138F569F48 /* ContentView.swift in Sources */,
 				E3EE33A4ABF94685B0866360 /* SampleWatchApp.swift in Sources */,
+				3C583CEF2C405CE1000FA7B2 /* AccelerometerViewModel.swift in Sources */,
 				86F2B511F22F48AA8235C148 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +514,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3C583CE92C4059FD000FA7B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C583CDC2C4059FC000FA7B2 /* SampleWatch Watch App */;
+			targetProxy = 3C583CE82C4059FD000FA7B2 /* PBXContainerItemProxy */;
+		};
 		71507692D3104B15AEB78106 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 365807311B134048B9CFA67F /* SampleWatch Watch App */;
@@ -429,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6C2E3173556A471DD304B334 /* Pods-RealtimeWatchApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = RealtimeWatchApp/RealtimeWatchApp.entitlements;
@@ -466,6 +569,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7A4D352CD337FB3A3BF06240 /* Pods-RealtimeWatchApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = RealtimeWatchApp/RealtimeWatchApp.entitlements;
@@ -538,6 +642,97 @@
 				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 9.3;
+			};
+			name = Release;
+		};
+		3C583CEB2C4059FD000FA7B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"SampleWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4L58M98Y42;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SampleWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.wa2goose.RealtimeWatchApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wa2goose.RealtimeWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		3C583CEC2C4059FD000FA7B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"SampleWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4L58M98Y42;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SampleWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.wa2goose.RealtimeWatchApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wa2goose.RealtimeWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
 			};
 			name = Release;
 		};
@@ -720,6 +915,15 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C583CED2C4059FD000FA7B2 /* Build configuration list for PBXNativeTarget "SampleWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C583CEB2C4059FD000FA7B2 /* Debug */,
+				3C583CEC2C4059FD000FA7B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

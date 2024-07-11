@@ -5,13 +5,13 @@ PODS:
     - ExpoModulesCore
   - EXFont (11.10.3):
     - ExpoModulesCore
-  - Expo (50.0.14):
+  - Expo (50.0.19):
     - ExpoModulesCore
-  - ExpoFileSystem (16.0.8):
+  - ExpoFileSystem (16.0.9):
     - ExpoModulesCore
   - ExpoKeepAwake (12.8.2):
     - ExpoModulesCore
-  - ExpoModulesCore (1.11.12):
+  - ExpoModulesCore (1.11.13):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -1070,7 +1070,7 @@ PODS:
     - React-jsi (= 0.73.6)
     - React-logger (= 0.73.6)
     - React-perflogger (= 0.73.6)
-  - RNReanimated (3.8.1):
+  - RNReanimated (3.14.0):
     - glog
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
@@ -1267,10 +1267,10 @@ SPEC CHECKSUMS:
   DoubleConversion: fea03f2699887d960129cc54bba7e52542b6f953
   EXConstants: 988aa430ca0f76b43cd46b66e7fae3287f9cc2fc
   EXFont: f20669cb266ef48b004f1eb1f2b20db96cd1df9f
-  Expo: e01a77c6fa4bc80a6d1bb949cda1d12d21044abd
-  ExpoFileSystem: eecaf6796aed0f4dd20042dc2ca2cac6c4bc1185
+  Expo: ad8bce0c0fc557cae703cc8dbce73d61a90ab5c5
+  ExpoFileSystem: 74cc0fae916f9f044248433971dcfc8c3befd057
   ExpoKeepAwake: 0f5cad99603a3268e50af9a6eb8b76d0d9ac956c
-  ExpoModulesCore: 61dc57c6e2a35f2f84baf488146db624e03af4cd
+  ExpoModulesCore: 4a8928a228569301ac4fc4a1e846713e05754d05
   FBLazyVector: f64d1e2ea739b4d8f7e4740cde18089cd97fe864
   FBReactNativeSpec: 9f2b8b243131565335437dba74923a8d3015e780
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
@@ -1318,11 +1318,11 @@ SPEC CHECKSUMS:
   React-runtimescheduler: 9636eee762c699ca7c85751a359101797e4c8b3b
   React-utils: d16c1d2251c088ad817996621947d0ac8167b46c
   ReactCommon: 2aa35648354bd4c4665b9a5084a7d37097b89c10
-  RNReanimated: 8a4d86eb951a4a99d8e86266dc71d7735c0c30a9
+  RNReanimated: f1ce27e7d23e6f941024b862ad76a7fdae93dea9
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   WatchModule: d3ad7e77f923ca403b372255d8adac1ecd9be4cb
-  Yoga: 805bf71192903b20fc14babe48080582fee65a80
+  Yoga: d17d2cc8105eed528474683b42e2ea310e1daf61
 
 PODFILE CHECKSUM: 04577c2c0fa66d1ab7b636eb4ef0a8b771b0a25b
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.15.2
